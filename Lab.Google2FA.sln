@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.Google2FA.Application", "src\Lab.Google2FA.Application\Lab.Google2FA.Application.csproj", "{3A33D93B-7257-4949-8E9B-518E1685CB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A33D93B-7257-4949-8E9B-518E1685CB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A33D93B-7257-4949-8E9B-518E1685CB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A33D93B-7257-4949-8E9B-518E1685CB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A33D93B-7257-4949-8E9B-518E1685CB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
