@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import QRCode from 'qrcode.react';
 
 export class SignIn extends Component {
   static displayName = SignIn.name;
@@ -25,6 +26,7 @@ export class SignIn extends Component {
         <p aria-live="polite">SignIn count: <strong>{this.state.currentCount}</strong></p>
 
         <button className="btn btn-primary" onClick={this.incrementCounter}>Increment</button>
+        <QRCode value="http://facebook.github.io/react/" />
       </div>
     );
   }
