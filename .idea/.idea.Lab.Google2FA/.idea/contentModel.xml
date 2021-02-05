@@ -97,6 +97,7 @@
           <e p="node_modules/popper.js" t="IncludeRecursive" />
           <e p="node_modules/pretty-format" t="IncludeRecursive" />
           <e p="node_modules/promise" t="IncludeRecursive" />
+          <e p="node_modules/qrcode.react" t="IncludeRecursive" />
           <e p="node_modules/react" t="IncludeRecursive" />
           <e p="node_modules/react-dom" t="IncludeRecursive" />
           <e p="node_modules/react-popper" t="IncludeRecursive" />
@@ -138,7 +139,11 @@
           </e>
         </e>
         <e p="Controllers" t="Include">
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="TwoFAController.cs" t="Include" />
+        </e>
+        <e p="Entities" t="Include">
+          <e p="AppUser.cs" t="Include" />
+          <e p="AppUserToken.cs" t="Include" />
         </e>
         <e p="Lab.Google2FA.Application.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -159,7 +164,6 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
       </e>
     </e>
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />

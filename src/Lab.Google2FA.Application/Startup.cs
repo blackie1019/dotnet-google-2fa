@@ -55,7 +55,7 @@ namespace Lab.Google2FA.Application
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller}/{action=Index}/{id?}");
+                    pattern: "api/{controller}/{action=Index}/{id?}/{method?}");
             });
 
             app.UseSpa(spa =>

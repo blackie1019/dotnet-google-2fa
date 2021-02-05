@@ -6,24 +6,37 @@ using Microsoft.Extensions.Logging;
 namespace Lab.Google2FA.Application.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class TwoFAController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<TwoFAController> _logger;
         private readonly TwoFactorAuthenticator _authenticator;
 
-        public TwoFAController(ILogger<WeatherForecastController> logger, TwoFactorAuthenticator authenticator)
+        public TwoFAController(ILogger<TwoFAController> logger, TwoFactorAuthenticator authenticator)
         {
             _logger = logger;
             _authenticator = authenticator;
         }
 
-        [HttpGet]
-        public string Get()
+        [HttpGet("{accountSecretKey}")]
+        public string GenerateSetupCode(string accountSecretKey)
         {
-            var setupInfo = _authenticator.GenerateSetupCode("blackie", "blackie1019@gamil.com", 100, 200);
-
+            var setupInfo = _authenticator.GenerateSetupCode("Lab.Google2FA", accountSecretKey, 300, 300);
             return JsonSerializer.Serialize(setupInfo);
+        }
+        
+        [HttpGet("currentPin/{accountSecretKey}")]
+        public string GetCurrentPIN(string accountSecretKey)
+        {
+            var result = _authenticator.GetCurrentPIN(accountSecretKey);
+            return result;
+        }
+        
+        [HttpGet("Validation/{accountSecretKey}/{currentPin}")]
+        public string ValidatePin(string accountSecretKey,string currentPin)
+        {
+            var result = _authenticator.ValidateTwoFactorPIN(accountSecretKey,currentPin);
+            return result.ToString();
         }
     }
 }
