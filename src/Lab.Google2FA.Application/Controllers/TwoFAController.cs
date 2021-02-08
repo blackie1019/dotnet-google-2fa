@@ -32,8 +32,8 @@ namespace Lab.Google2FA.Application.Controllers
             return result;
         }
         
-        [HttpGet("Validation/{accountSecretKey}/{currentPin}")]
-        public string ValidatePin(string accountSecretKey,string currentPin)
+        [HttpPost("Validation/{accountSecretKey}")]
+        public string ValidatePin(string accountSecretKey,[FromForm] string currentPin)
         {
             var result = _authenticator.ValidateTwoFactorPIN(accountSecretKey,currentPin);
             return result.ToString();

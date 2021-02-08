@@ -9,11 +9,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab.Google2FA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab.Google2FA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab.Google2FA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab.Google2FA/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/Counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/FetchData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/NavMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/TwoFAController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/TwoFAController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab.Google2FA.Application/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/WeatherForecast.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,19 +22,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/829DB489-DF70-49C5-B014-ED3A1E8B948F/34/64921479/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/ED237DB3-3A51-49CD-9315-8F727BE14FA9/59/b0c1024c/02000003.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED237DB3-3A51-49CD-9315-8F727BE14FA9/3b/bd773c6a/TwoFactorAuthenticator.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/WeatherForecastController.cs" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Pages/Error.cshtml.cs" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Program.cs" />
-      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/NavMenu.js" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Entities/AppUser.cs" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Entities/AppUserToken.cs" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Data/ApplicationDbContext.cs" />
       <option value="$PROJECT_DIR$/README.md" />
-      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/App.js" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Startup.cs" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/SignIn.js" />
+      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/NavMenu.js" />
+      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/App.js" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/TwoFAController.cs" />
     </changedPaths>
   </component>
@@ -130,7 +134,8 @@
       <updated>1612254161299</updated>
       <workItem from="1612254162988" duration="1176000" />
       <workItem from="1612259399685" duration="2840000" />
-      <workItem from="1612321147234" duration="16555000" />
+      <workItem from="1612321147234" duration="16872000" />
+      <workItem from="1612754130670" duration="5589000" />
     </task>
     <servers />
   </component>
@@ -151,24 +156,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/TwoFAController.cs</url>
-          <line>37</line>
-          <properties documentPath="$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/TwoFAController.cs" initialLine="37" containingFunctionPresentation="method 'ValidatePin'">
-            <startOffsets>
-              <option value="1312" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1390" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

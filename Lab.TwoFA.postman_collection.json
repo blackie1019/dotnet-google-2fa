@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "69bfed11-b32d-4086-9095-d77252ffdcf4",
+		"name": "Lab.TwoFA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GenerateSetupCode",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/twofa/blackie1019%40gmail.com",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"twofa",
+						"blackie1019%40gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCurrentPin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/twofa/CurrentPin/blackie1019%40gmail.com",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"twofa",
+						"CurrentPin",
+						"blackie1019%40gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ValidatePin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "currentPin",
+							"value": "605371",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/twofa/Validation/blackie1019%40gmail.com/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"twofa",
+						"Validation",
+						"blackie1019%40gmail.com",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
