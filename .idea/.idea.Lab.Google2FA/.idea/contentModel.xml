@@ -125,11 +125,11 @@
             <e p="App.js" t="Include" />
             <e p="App.test.js" t="Include" />
             <e p="components" t="Include">
+              <e p="Google2FA.js" t="Include" />
               <e p="Home.js" t="Include" />
               <e p="Layout.js" t="Include" />
               <e p="NavMenu.css" t="Include" />
               <e p="NavMenu.js" t="Include" />
-              <e p="SignIn.js" t="Include" />
             </e>
             <e p="custom.css" t="Include" />
             <e p="index.js" t="Include" />

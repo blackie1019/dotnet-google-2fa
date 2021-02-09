@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router';
 import { Layout } from './components/Layout';
 import { Home } from './components/Home';
-import { SignIn } from './components/SignIn';
+import { Google2FA } from './components/Google2FA';
 
 import './custom.css'
 
@@ -13,7 +13,7 @@ export default class App extends Component {
     return (
       <Layout>
         <Route exact path='/' component={Home} />
-        <Route path='/SignIn' component={SignIn} />
+        <Route path='/Google2FA' component={Google2FA} />
       </Layout>
     );
   }

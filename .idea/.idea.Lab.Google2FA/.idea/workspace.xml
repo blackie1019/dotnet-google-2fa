@@ -8,10 +8,10 @@
     <list default="true" id="2eec084e-1164-4f05-8564-c814cca1882a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab.Google2FA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab.Google2FA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab.Google2FA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab.Google2FA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/FetchData.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/SignIn.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/TwoFAController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/TwoFAController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +35,13 @@
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Entities/AppUser.cs" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Entities/AppUserToken.cs" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Data/ApplicationDbContext.cs" />
-      <option value="$PROJECT_DIR$/README.md" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Startup.cs" />
-      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/SignIn.js" />
-      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/NavMenu.js" />
-      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/App.js" />
       <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/Controllers/TwoFAController.cs" />
+      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/SignIn.js" />
+      <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/App.js" />
+      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/NavMenu.js" />
+      <option value="$PROJECT_DIR$/src/Lab.Google2FA.Application/ClientApp/src/components/Google2FA.js" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nuyEoUMwae3HHGKNg9GWCMAQU1" />
@@ -135,7 +136,7 @@
       <workItem from="1612254162988" duration="1176000" />
       <workItem from="1612259399685" duration="2840000" />
       <workItem from="1612321147234" duration="16872000" />
-      <workItem from="1612754130670" duration="5589000" />
+      <workItem from="1612754130670" duration="14028000" />
     </task>
     <servers />
   </component>

@@ -22,6 +22,7 @@ namespace Lab.Google2FA.Application.Controllers
         public string GenerateSetupCode(string accountSecretKey)
         {
             var setupInfo = _authenticator.GenerateSetupCode("Lab.Google2FA", accountSecretKey, 300, 300);
+            
             return JsonSerializer.Serialize(setupInfo);
         }
         

@@ -1,32 +1,33 @@
 # Google 2FA with ASP.NET Core
 
-## Run
+![google2fa.png](images/google2fa.png)
 
-TBD
+## Test With PostMan
+
+import `Lab.TwoFA.postman_collection.json`
+
+- GenerateSetupCode
+
+  取得裝置設定碼, 格式參考 [google-authenticator:Key Uri Format](https://github.com/google/google-authenticator/wiki/Key-Uri-Format)
+
+  `otpauth://TYPE/LABEL?PARAMETERS`
+
+- GetCurrentPin
+
+  取得當前有效的 PinCode
+
+- ValidatePin
+
+  驗證傳入的 PinCode 是否有效
 
 ## Data schema
 
 User
 
-- `id(pk, auto)`
-- username
-- email(unique key)
-- password
-- TwoFAEnabled
-- HasAuthenticator
-- TwoFARemember
-
-External providers
-
-- `id(pk, auto)`
-- provider
-
-UserToken
-
-- UserId
-- LoginProvider
-- Name(AuthenticatorKey, RecoveryCodes)  
-- Value(key for authenticator)
+- id(`pk, auto`)
+- account(`unique key`)
+- password(`hash`+`salt`)
+- accountSecretKey(`one time generate only`)
 
 ## References
 
