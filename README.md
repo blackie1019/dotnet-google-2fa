@@ -1,7 +1,12 @@
 # Google 2FA with ASP.NET Core
 
+## HLD
+
 ![google2fa.png](images/google2fa.png)
 
+## Sample UI
+
+![google2fa_lab.png](images/google2fa_lab.png)
 ## Test With PostMan
 
 import `Lab.TwoFA.postman_collection.json`
